@@ -1,12 +1,12 @@
 package org.example;
 
 import java.sql.*;
-import lombok.*;
+
 import lombok.experimental.SuperBuilder;
 
 @SuperBuilder
 
-public class TestInsert extends Main {
+public class SelectSyntax extends Main {
 
     Connection con = DriverManager.getConnection(url, user, password);
     Statement st = con.createStatement();
